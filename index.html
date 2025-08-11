@@ -3,53 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Situs Pengajian Lengkap</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Situs Pengajian Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <h1>Situs Pengajian Online</h1>
-        <p>Sumber ilmu agama Islam yang lengkap</p>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">Situs Pengajian</div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#alquran">Al-Qur'an</a></li>
+                    <li><a href="#ceramah">Ceramah</a></li>
+                    <li><a href="#kisah-nabi">Kisah Nabi</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <nav>
-        <a href="index.html">Beranda</a>
-        <a href="alquran.html">Al-Qur'an</a>
-        <a href="ceramah.html">Ceramah</a>
-        <a href="kisah-nabi.html">Kisah Nabi</a>
-    </nav>
+    <main class="main-content">
+        <div class="container">
+            <section id="beranda" class="hero-section">
+                <h1>Belajar Islam Lebih Mudah, Kapan Saja di Mana Saja</h1>
+                <p>Temukan Al-Qur'an, ceramah, dan kisah para nabi dalam satu platform.</p>
+                <a href="#alquran" class="cta-button">Mulai Membaca Al-Qur'an</a>
+            </section>
 
-    <div class="container">
-        <div class="content-section">
-            <h2>Selamat Datang di Situs Pengajian Online</h2>
-            <p>Di sini Anda dapat menemukan berbagai sumber ilmu agama, mulai dari membaca Al-Qur'an, menonton ceramah inspiratif, hingga mempelajari kisah-kisah teladan para Nabi dan Rasul.</p>
-        </div>
-        
-        <div class="content-section">
-            <h2>Jelajahi Konten Kami</h2>
-            <div class="card-grid">
-                <div class="card">
+            <section id="fitur" class="feature-grid">
+                <div class="feature-card">
                     <h3>Baca Al-Qur'an</h3>
-                    <p>Temukan 114 surat Al-Qur'an lengkap dengan terjemahan.</p>
-                    <a href="alquran.html">Mulai Membaca</a>
+                    <p>Baca ayat suci Al-Qur'an dengan terjemahan dan tafsir yang mudah dipahami.</p>
+                    <a href="#alquran" class="read-more">Lihat Selengkapnya</a>
                 </div>
-                <div class="card">
-                    <h3>Tonton Ceramah</h3>
-                    <p>Saksikan video ceramah dari ustaz terkemuka.</p>
-                    <a href="ceramah.html">Lihat Ceramah</a>
+                <div class="feature-card">
+                    <h3>Kumpulan Ceramah</h3>
+                    <p>Dengarkan kajian dari berbagai ustadz ternama secara gratis.</p>
+                    <a href="#ceramah" class="read-more">Lihat Selengkapnya</a>
                 </div>
-                <div class="card">
+                <div class="feature-card">
                     <h3>Kisah Para Nabi</h3>
-                    <p>Pelajari kisah hidup dan perjuangan para Nabi.</p>
-                    <a href="kisah-nabi.html">Baca Kisahnya</a>
+                    <p>Pelajari hikmah dari kisah-kisah inspiratif para nabi.</p>
+                    <a href="#kisah-nabi" class="read-more">Lihat Selengkapnya</a>
                 </div>
-            </div>
+            </section>
         </div>
-    </div>
+    </main>
 
-    <footer>
-        <p>&copy; 2024 Situs Pengajian Online. Hak Cipta Dilindungi.</p>
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2024 Situs Pengajian Online. Hak Cipta Dilindungi.</p>
+        </div>
     </footer>
 
 </body>
